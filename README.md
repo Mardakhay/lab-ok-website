@@ -1,4 +1,4 @@
-# LAB-OK Website — Guide
+# LAB-OK Website
 
 Multi-page service website for **LAB-OK**, a laboratory equipment service company based in Baku, Azerbaijan.
 
@@ -220,7 +220,3 @@ The folder structure must be preserved: `css/` and `js/` must be at the same lev
 Tailwind loads from `cdn.tailwindcss.com` — the browser needs internet access to render correctly.
 
 > **For production:** replace the Tailwind CDN script with a compiled CSS file (via Tailwind CLI or Vite) to eliminate the CDN dependency and improve load time.
-
----
-
-*LAB-OK Website — v3 (best of Claude + ChatGPT)*

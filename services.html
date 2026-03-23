@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>LAB-OK | Services — Certified Laboratory Systems Support</title>
+<meta name="description" content="Specialized engineering for Azerbaijan's clinical medical centers and industrial manufacturing facilities. ISO compliance and operational continuity."/>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<!-- Tailwind CDN -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+        darkMode: "class",
+        theme: {
+            extend: {
+                colors: {
+                    "primary": "#003f87",
+                    "primary-container": "#0056b3",
+                    "on-primary": "#ffffff",
+                    "on-primary-fixed-variant": "#004491",
+                    "on-primary-container": "#bbd0ff",
+                    "surface": "#f8f9fa",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-container-low": "#f3f4f5",
+                    "surface-container": "#edeeef",
+                    "surface-container-high": "#e7e8e9",
+                    "surface-container-highest": "#e1e3e4",
+                    "surface-variant": "#e1e3e4",
+                    "background": "#f8f9fa",
+                    "on-surface": "#191c1d",
+                    "on-surface-variant": "#424752",
+                    "on-background": "#191c1d",
+                    "outline": "#727784",
+                    "outline-variant": "#c2c6d4",
+                    "error": "#ba1a1a",
+                },
+                fontFamily: {
+                    "headline": ["Space Grotesk"],
+                    "body": ["Work Sans"],
+                    "label": ["Work Sans"],
+                },
+                borderRadius: { "DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px" },
+            },
+        },
+    }
+</script>
+<!-- Shared stylesheet -->
+<link rel="stylesheet" href="css/style.css"/>
+</head>
+<body class="services bg-surface text-on-surface">
+
+<!-- ═══ TOP NAV (desktop) ═══════════════════════════════════ -->
+<nav class="nav-top hidden md:flex">
+    <a class="nav-logo" href="index.html">LAB-OK</a>
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="services.html" class="active">Services</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+
+<!-- ═══ MOBILE HEADER ════════════════════════════════════════ -->
+<header class="mobile-header md:hidden">
+    <a class="mobile-logo" href="index.html">
+        <span class="material-symbols-outlined" style="color:#003f87">biotech</span>
+        LAB-OK
+    </a>
+    <button class="mobile-menu-btn" aria-label="Open menu">
+        <span class="material-symbols-outlined">menu</span>
+    </button>
+</header>
+
+<!-- ═══ MAIN CONTENT ═════════════════════════════════════════ -->
+<main class="pt-0 md:pt-32 pb-20 px-6 md:px-8 max-w-7xl mx-auto">
+
+    <!-- Page Header -->
+    <header class="mb-12 md:mb-20 pt-12 md:pt-0 fade-in">
+        <span class="text-on-surface-variant font-label text-[10px] uppercase tracking-[0.2em] font-bold block mb-4">
+            <!-- desktop -->
+            <span class="hidden md:inline">AZERBAIJAN TECHNICAL SERVICES</span>
+            <!-- mobile -->
+            <span class="md:hidden">Technical Catalog • Baku, Azerbaijan</span>
+        </span>
+        <h1 class="text-5xl md:text-7xl font-bold tracking-tighter leading-none text-primary mb-6 md:mb-8">
+            <span class="hidden md:block">Certified Laboratory<br/>Systems Support.</span>
+            <span class="md:hidden uppercase">Services</span>
+        </h1>
+        <div class="w-16 md:w-24 h-2 bg-primary mb-6 md:mb-8"></div>
+        <p class="text-base md:text-xl text-on-surface-variant max-w-2xl font-body leading-relaxed">
+            Specialized engineering for Azerbaijan's clinical medical centers and industrial manufacturing facilities.
+            We ensure ISO compliance and operational continuity for critical analytical hardware.
+        </p>
+    </header>
+
+    <!-- ── DESKTOP: Bento Grid ── -->
+    <div class="bento-grid grid-cols-1 md:grid-cols-12 hidden md:grid fade-in-stagger">
+
+        <!-- Medical Lab Integration -->
+        <div class="bento-item md:col-span-8 p-12 flex flex-col justify-between min-h-[400px]">
+            <div>
+                <span class="text-primary font-label text-[10px] font-black uppercase tracking-widest mb-6 block">01 / Clinical Precision</span>
+                <h3 class="text-4xl font-bold tracking-tight mb-8">Medical Equipment Integration</h3>
+                <div class="grid md:grid-cols-2 gap-12">
+                    <div>
+                        <p class="text-[10px] uppercase tracking-widest font-bold text-on-surface-variant mb-3">When you need this</p>
+                        <p class="text-sm font-body leading-relaxed">Opening new diagnostic centers in Baku or upgrading regional hospital labs with modern biochemistry and hematology analyzers.</p>
+                    </div>
+                    <div>
+                        <p class="text-[10px] uppercase tracking-widest font-bold text-on-surface-variant mb-3">What you get</p>
+                        <ul class="text-sm font-body space-y-2">
+                            <li class="flex items-start gap-2"><span class="w-1.5 h-1.5 bg-primary mt-1.5 shrink-0"></span>Full LIS/HIS software integration</li>
+                            <li class="flex items-start gap-2"><span class="w-1.5 h-1.5 bg-primary mt-1.5 shrink-0"></span>Local regulatory compliance check</li>
+                            <li class="flex items-start gap-2"><span class="w-1.5 h-1.5 bg-primary mt-1.5 shrink-0"></span>Clinician technical training</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Manufacturing QC -->
+        <div class="bento-item md:col-span-4 p-12 flex flex-col justify-between min-h-[400px] bg-surface-container-low">
+            <div>
+                <span class="text-primary font-label text-[10px] font-black uppercase tracking-widest mb-6 block">02 / Industrial Quality</span>
+                <h3 class="text-4xl font-bold tracking-tight mb-8">Industrial QA/QC Support</h3>
+                <div class="space-y-8">
+                    <div>
+                        <p class="text-[10px] uppercase tracking-widest font-bold text-on-surface-variant mb-3">When you need this</p>
+                        <p class="text-sm font-body leading-relaxed">Maintaining heavy-duty spectrometers or chromatographs for oil, gas, and textile manufacturing QC labs.</p>
+                    </div>
+                    <div>
+                        <p class="text-[10px] uppercase tracking-widest font-bold text-on-surface-variant mb-3">What you get</p>
+                        <p class="text-sm font-body leading-relaxed italic">High-frequency vibration analysis, thermal stability testing, and gas-line integrity audits.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Calibration -->
+        <div class="bento-item md:col-span-4 bg-primary text-on-primary p-12 flex flex-col justify-between min-h-[400px]">
+            <div>
+                <span class="text-on-primary-container font-label text-[10px] font-black uppercase tracking-widest mb-6 block">03 / Standard Compliance</span>
+                <h3 class="text-4xl font-bold tracking-tight mb-8">Certified Calibration</h3>
+                <div class="space-y-8">
+                    <div>
+                        <p class="text-[10px] uppercase tracking-widest font-bold text-white/60 mb-3">When you need this</p>
+                        <p class="text-sm font-body leading-relaxed">Annual verification required for ISO 17025 accreditation or AZS certification renewals.</p>
+                    </div>
+                    <div>
+                        <p class="text-[10px] uppercase tracking-widest font-bold text-white/60 mb-3">What you get</p>
+                        <p class="text-sm font-body leading-relaxed">Official traceability documentation and precise multi-point adjustment protocols.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- On-Site Diagnostics -->
+        <div class="bento-item md:col-span-4 p-12 flex flex-col justify-between min-h-[400px] bg-surface-container">
+            <div>
+                <span class="text-primary font-label text-[10px] font-black uppercase tracking-widest mb-6 block">04 / Fault Isolation</span>
+                <h3 class="text-4xl font-bold tracking-tight mb-8">On-Site Diagnostics</h3>
+                <div class="space-y-8">
+                    <div>
+                        <p class="text-[10px] uppercase tracking-widest font-bold text-on-surface-variant mb-3">When you need this</p>
+                        <p class="text-sm font-body leading-relaxed">Unexpected system variance or persistent error codes preventing sample processing in high-throughput labs.</p>
+                    </div>
+                    <div>
+                        <p class="text-[10px] uppercase tracking-widest font-bold text-on-surface-variant mb-3">What you get</p>
+                        <p class="text-sm font-body leading-relaxed">Comprehensive root-cause report and immediate resolution path identification.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Emergency Repair -->
+        <div class="bento-item md:col-span-4 p-12 flex flex-col justify-between min-h-[400px] bg-surface-container-low">
+            <div>
+                <span class="text-error font-label text-[10px] font-black uppercase tracking-widest mb-6 block">05 / 24/7 Response</span>
+                <h3 class="text-4xl font-bold tracking-tight mb-8">Emergency Repair</h3>
+                <div class="space-y-8">
+                    <div>
+                        <p class="text-[10px] uppercase tracking-widest font-bold text-on-surface-variant mb-3">When you need this</p>
+                        <p class="text-sm font-body leading-relaxed">Catastrophic component failure during critical production cycles or urgent clinical patient testing.</p>
+                    </div>
+                    <div>
+                        <p class="text-[10px] uppercase tracking-widest font-bold text-on-surface-variant mb-3">What you get</p>
+                        <p class="text-sm font-body leading-relaxed font-bold">Priority Baku-metro 2-hour response; nationwide 6-hour on-site arrival guarantee.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Service Level Agreements (full-width) -->
+        <div class="bento-item md:col-span-12 p-12 md:p-16 flex flex-col md:flex-row items-start md:items-center justify-between min-h-[300px] border-t-4 border-primary bg-surface-container-highest">
+            <div class="max-w-xl">
+                <span class="text-primary font-label text-[10px] font-black uppercase tracking-widest mb-6 block">06 / Long-term Operational Security</span>
+                <h3 class="text-4xl md:text-5xl font-bold tracking-tight mb-6">Service Level Agreements</h3>
+                <p class="text-lg font-body text-on-surface-variant">Customized maintenance contracts for large-scale medical networks and industrial parks. Centralize your technical support under one predictable budget.</p>
+            </div>
+            <div class="mt-10 md:mt-0 flex flex-col gap-8 md:min-w-[320px]">
+                <div>
+                    <p class="text-[10px] uppercase tracking-widest font-bold text-on-surface-variant mb-3">What you get</p>
+                    <ul class="text-sm font-body space-y-2">
+                        <li class="flex items-start gap-2"><span class="w-1.5 h-1.5 bg-primary mt-1.5 shrink-0"></span>Quarterly Preventive Maintenance</li>
+                        <li class="flex items-start gap-2"><span class="w-1.5 h-1.5 bg-primary mt-1.5 shrink-0"></span>Spare Parts Inventory Management</li>
+                        <li class="flex items-start gap-2"><span class="w-1.5 h-1.5 bg-primary mt-1.5 shrink-0"></span>Dedicated 24/7 Technical Liaison</li>
+                    </ul>
+                </div>
+                <a href="contact.html" class="btn-primary text-center w-full py-4 text-sm tracking-widest">Request Service Proposal</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ── MOBILE: Service List ── -->
+    <div class="md:hidden space-y-12 pb-6 fade-in-stagger">
+
+        <!-- Service 01: Installation -->
+        <div class="group">
+            <div class="flex items-start justify-between border-b-2 border-outline-variant pb-4 mb-6">
+                <div>
+                    <span class="text-on-surface-variant font-label text-[10px] uppercase tracking-widest block mb-1">Service 01 • SRV-INST</span>
+                    <h2 class="text-3xl font-bold font-headline text-on-surface">Installation</h2>
+                </div>
+                <span class="material-symbols-outlined text-primary text-3xl">architecture</span>
+            </div>
+            <div class="space-y-6">
+                <div>
+                    <p class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mb-2">When You Need This</p>
+                    <p class="text-sm font-body leading-relaxed text-on-surface">Expanding capacity with new OEM equipment. Ensuring structural and utility compliance before startup.</p>
+                </div>
+                <div class="bg-surface-container-low p-5 border-l-4 border-primary">
+                    <p class="text-[10px] font-bold uppercase tracking-widest text-primary mb-2">What You Get</p>
+                    <p class="text-sm font-body font-medium leading-relaxed">Full IQ/OQ/PQ documentation. Site readiness certification and OEM-standard commissioning.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Service 02: Maintenance -->
+        <div class="group">
+            <div class="flex items-start justify-between border-b-2 border-outline-variant pb-4 mb-6">
+                <div>
+                    <span class="text-on-surface-variant font-label text-[10px] uppercase tracking-widest block mb-1">Service 02 • SRV-MAINT</span>
+                    <h2 class="text-3xl font-bold font-headline text-on-surface">Maintenance</h2>
+                </div>
+                <span class="material-symbols-outlined text-primary text-3xl">settings_suggest</span>
+            </div>
+            <div class="space-y-6">
+                <div>
+                    <p class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mb-2">When You Need This</p>
+                    <p class="text-sm font-body leading-relaxed text-on-surface">Scheduled uptime assurance. Pre-emptive intervention for high-throughput instrumentation.</p>
+                </div>
+                <div class="bg-surface-container-low p-5 border-l-4 border-primary">
+                    <p class="text-[10px] font-bold uppercase tracking-widest text-primary mb-2">What You Get</p>
+                    <p class="text-sm font-body font-medium leading-relaxed">Component wear analysis. Full lubricant replacement, seal testing, and debris removal.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Service 03: Calibration -->
+        <div class="group">
+            <div class="flex items-start justify-between border-b-2 border-outline-variant pb-4 mb-6">
+                <div>
+                    <span class="text-on-surface-variant font-label text-[10px] uppercase tracking-widest block mb-1">Service 03 • SRV-CALIB</span>
+                    <h2 class="text-3xl font-bold font-headline text-on-surface">Calibration</h2>
+                </div>
+                <span class="material-symbols-outlined text-primary text-3xl">straighten</span>
+            </div>
+            <div class="space-y-6">
+                <div>
+                    <p class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mb-2">When You Need This</p>
+                    <p class="text-sm font-body leading-relaxed text-on-surface">Maintaining compliance with ISO/IEC 17025. Annual or semi-annual validation of measurement precision.</p>
+                </div>
+                <div class="bg-surface-container-low p-5 border-l-4 border-primary">
+                    <p class="text-[10px] font-bold uppercase tracking-widest text-primary mb-2">What You Get</p>
+                    <p class="text-sm font-body font-medium leading-relaxed">NIST-traceable certification. Documented drift adjustments and uncertainty measurements.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Service 04: Diagnostics -->
+        <div class="group">
+            <div class="flex items-start justify-between border-b-2 border-outline-variant pb-4 mb-6">
+                <div>
+                    <span class="text-on-surface-variant font-label text-[10px] uppercase tracking-widest block mb-1">Service 04 • SRV-DIAG</span>
+                    <h2 class="text-3xl font-bold font-headline text-on-surface">Diagnostics</h2>
+                </div>
+                <span class="material-symbols-outlined text-primary text-3xl">query_stats</span>
+            </div>
+            <div class="space-y-6">
+                <div>
+                    <p class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mb-2">When You Need This</p>
+                    <p class="text-sm font-body leading-relaxed text-on-surface">Intermittent data errors or drift. Inconsistent results requiring expert system-level analysis.</p>
+                </div>
+                <div class="bg-surface-container-low p-5 border-l-4 border-primary">
+                    <p class="text-[10px] font-bold uppercase tracking-widest text-primary mb-2">What You Get</p>
+                    <p class="text-sm font-body font-medium leading-relaxed">Root-cause identification. Software log analysis and environmental impact assessment.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Service 05: Emergency Repair -->
+        <div class="bg-primary text-on-primary p-8">
+            <div class="flex items-start justify-between mb-8">
+                <div>
+                    <span class="text-on-primary-container font-label text-[10px] uppercase tracking-widest block mb-1">Emergency Only • CRITICAL</span>
+                    <h2 class="text-3xl font-bold font-headline">Emergency Repair</h2>
+                </div>
+                <span class="material-symbols-outlined text-on-primary-container text-4xl">emergency_home</span>
+            </div>
+            <div class="space-y-6">
+                <div>
+                    <p class="text-[10px] font-bold uppercase tracking-widest text-on-primary-container mb-2">When You Need This</p>
+                    <p class="text-sm font-body leading-relaxed opacity-90">Critical system failure. Immediate halt of operations requiring rapid field deployment.</p>
+                </div>
+                <div class="bg-primary-container p-5">
+                    <p class="text-[10px] font-bold uppercase tracking-widest text-on-primary mb-2">What You Get</p>
+                    <p class="text-sm font-body font-medium leading-relaxed">4-hour response window. Priority part sourcing and emergency technical labor.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Service 06: Service Contracts -->
+        <div class="group">
+            <div class="flex items-start justify-between border-b-2 border-outline-variant pb-4 mb-6">
+                <div>
+                    <span class="text-on-surface-variant font-label text-[10px] uppercase tracking-widest block mb-1">Elite Program</span>
+                    <h2 class="text-3xl font-bold font-headline text-on-surface">Service Contracts</h2>
+                </div>
+                <span class="material-symbols-outlined text-primary text-3xl">contract</span>
+            </div>
+            <div class="space-y-6">
+                <div>
+                    <p class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant mb-2">When You Need This</p>
+                    <p class="text-sm font-body leading-relaxed text-on-surface">Total lifecycle management. Predictive budgeting and outsourced technical oversight.</p>
+                </div>
+                <div class="bg-surface-container-low p-5 border-l-4 border-primary">
+                    <p class="text-[10px] font-bold uppercase tracking-widest text-primary mb-2">What You Get</p>
+                    <p class="text-sm font-body font-medium leading-relaxed">Priority scheduling and annual reviews. Unlimited labor and discount on OEM components.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Module (shared, responsive) -->
+    <section class="mt-16 md:mt-20 grid md:grid-cols-2 gap-0 border border-outline-variant fade-in">
+        <div class="bg-surface-container-highest p-8 md:p-12 border-b md:border-b-0 md:border-r border-outline-variant">
+            <h4 class="text-xl md:text-2xl font-bold mb-4">Engineering Support</h4>
+            <p class="text-on-surface-variant font-body mb-6 md:mb-8">Contact our technical department for equipment-specific protocols or software update schedules.</p>
+            <div class="space-y-4 md:space-y-6">
+                <div class="flex items-center gap-4">
+                    <span class="material-symbols-outlined text-primary">call</span>
+                    <span class="font-headline font-bold text-base md:text-lg">+994 (12) 555-OK-01</span>
+                </div>
+                <div class="flex items-center gap-4">
+                    <span class="material-symbols-outlined text-primary">mail</span>
+                    <a href="mailto:service@lab-ok.az" class="font-headline font-bold text-base md:text-lg animated-link">service@lab-ok.az</a>
+                </div>
+            </div>
+        </div>
+        <div class="bg-surface-container-low p-8 md:p-12 flex flex-col justify-center">
+            <p class="font-label text-xs font-bold uppercase tracking-[0.3em] text-primary mb-2">Regional Hub</p>
+            <h4 class="text-xl md:text-2xl font-bold mb-2">Service Operations Center</h4>
+            <p class="text-on-surface-variant font-body">24 Neftchilar Ave, Port Baku Towers<br/>Baku, Azerbaijan AZ1000</p>
+            <div class="mt-6 md:mt-8 flex gap-4">
+                <span class="material-symbols-outlined text-outline">schedule</span>
+                <span class="text-xs font-bold font-label uppercase text-on-surface-variant self-center">Mon - Sat: 09:00 - 19:00 AZT</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mobile info strip -->
+    <section class="md:hidden bg-surface py-10 mt-8 fade-in">
+        <div class="border-t border-outline-variant pt-8">
+            <div class="grid grid-cols-2 gap-8">
+                <div>
+                    <span class="text-on-surface-variant font-label text-[10px] uppercase tracking-widest block mb-2">Location</span>
+                    <p class="font-bold text-sm">Baku, Azerbaijan<br/>AZ1000 District</p>
+                </div>
+                <div>
+                    <span class="text-on-surface-variant font-label text-[10px] uppercase tracking-widest block mb-2">Availability</span>
+                    <p class="font-bold text-sm">Mon — Sat<br/>09:00 — 18:00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- ═══ FOOTER ═══════════════════════════════════════════════ -->
+<footer class="site-footer">
+    <div class="footer-logo">LAB-OK</div>
+    <div class="footer-copy">© 2026 LAB-OK. All Rights Reserved.</div>
+    <div class="footer-links">
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</footer>
+
+<!-- ═══ BOTTOM MOBILE NAV ═════════════════════════════════════ -->
+<nav class="nav-bottom" aria-label="Mobile navigation">
+    <a href="index.html">
+        <span class="material-symbols-outlined">home</span>
+        <span>Home</span>
+    </a>
+    <a href="services.html" class="active">
+        <span class="material-symbols-outlined" style="font-variation-settings:'FILL' 1">rebase_edit</span>
+        <span>Services</span>
+    </a>
+    <a href="contact.html">
+        <span class="material-symbols-outlined">contact_support</span>
+        <span>Contact</span>
+    </a>
+</nav>
+
+<script src="js/main.js"></script>
+</body>
+</html>
